@@ -1,0 +1,19 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "alunos.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "depencencies": {
+    "axios": "0.17.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}

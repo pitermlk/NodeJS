@@ -1,0 +1,47 @@
+node -v 
+
+npm -v 
+
+npm config set proxy http://Webpeople%402018@proxylatam.indra.es:8080
+npm config set https-proxy http://Webpeople%402018@proxylatam.indra.es:8080
+npm config set http-proxy http://Webpeople%402018@proxylatam.indra.es:8080
+
+npm config set proxy http://placerda:Javascript@2018@proxylatam.indra.es:8080
+npm config set https-proxy http://placerda:Javascript@2018@proxylatam.indra.es:8080
+npm config set http-proxy http://placerda:Javascript@2018@proxylatam.indra.es:8080
+
+npm i lodash
+npm i -g nodemon = BAIXAMOS UMA DEPENDENCIA GLOBAL 
+nodemon nomeModulo 
+
+
+DESLIGAR UM SERVIÇO EM UMA DAS PORTAS DESEJADA. 
+
+netstat -a -n -o
+kill PID 
+
+COMANDO PARA CRIAR UM ARQUIVO PACKAGE.JSON
+
+npm init 
+npm init -y 
+
+COMANDO PARA SALVAR DEPENDENCIA NO JSON 
+
+npm i --save axios 
+
+--save-dev axios@0.17.1 -E
+
+http://172.20.148.253/localhost:8080
+
+alt + shift + a 
+
+npm i = ULTILIZAMOS PARA BAIXA TODAS AS DEPENDENCIAS NECESSARIAS DE UM PROJETO ATRAVEZ DO PACKAGE.JSON 
+
+npm start 
+
+
+COMANDO PARA CRIAR JSON, INSTALAR DEPENDENCIAS NECESSARIAS E START UMA APLICAÇÃO ATRAVEZ DO MAIN APONTADO. 
+
+npm init -y 
+npm i 
+npm start 
